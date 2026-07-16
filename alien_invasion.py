@@ -60,6 +60,11 @@ class AlienInvasion:
 
             #subtract life
 
+        if self.alien_fleet.check_destroyed_status():
+            self._reset_level()
+
+    
+
 
 
 
