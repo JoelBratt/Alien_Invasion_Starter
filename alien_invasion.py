@@ -76,6 +76,7 @@ class AlienInvasion:
             self.settings.increase_difficulty()
             self.game_stats.update_level()
             # update hud
+            self.HUD.update_level()
 
     def _check_game_status(self):
         if self.game_stats.ships_left > 0:
