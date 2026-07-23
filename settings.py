@@ -27,3 +27,12 @@ class Settings:
         self.fleet_speed = 2
         self.fleet_direction = 1
         self.fleet_drop_speed = 20
+
+        self.button_w = 200
+        self.button_h = 50
+        self.button_color = (71, 15, 15)
+
+        self.text_color = (255,255,255)
+        self.button_font_size = (48)
+        self.HUD_font_size = 24
+        self.font_file = Path.cwd() / 'Assets' / 'Fonts' / 'Quantico' / 'Quantico-Bold.ttf'
