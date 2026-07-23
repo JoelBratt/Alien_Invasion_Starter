@@ -34,5 +34,5 @@ class Settings:
 
         self.text_color = (255,255,255)
         self.button_font_size = (48)
-        self.HUD_font_size = 24
+        self.HUD_font_size = 22
         self.font_file = Path.cwd() / 'Assets' / 'Fonts' / 'Quantico' / 'Quantico-Bold.ttf'
